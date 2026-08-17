@@ -25,6 +25,37 @@ For each claim, record:
 
 If two official pages disagree, prefer the newer and more specific document. State the uncertainty rather than silently choosing a favorable number.
 
+## Evidence labels for process and troubleshooting posts
+
+Classify every nontrivial statement before turning it into card copy:
+
+| Label | Meaning | Safe wording |
+|---|---|---|
+| Official rule | Directly stated by the provider, regulator, exchange, or issuer | “官方页面写明……” |
+| User-observed result | The user personally saw an App screen, rejection, approval, delivery, or timing | “我这次提交时看到……” |
+| Experience reference | Reported by other users but not confirmed as a rule | “部分经验帖提到……” |
+| Hypothesis | A variable changed between attempts, but causation is unknown | “我个人怀疑……；无法确认是否是原因” |
+
+Do not upgrade an experience reference into a rule through repetition. A successful attempt after changing an email provider, App Store region, network route, declared asset range, address, or bundled product selection does not prove that the changed variable caused approval.
+
+Use the least assertive truthful formulation. For example:
+
+- Safe: “我实际使用 Gmail，并确认邮箱能正常收信.”
+- Unsafe without official evidence: “不要用 QQ 邮箱，否则会被拒.”
+
+Record the date of the user's experience separately from the date on which official sources were checked. A recent experience is useful context, not a substitute for current terms.
+
+## Official visuals and product names
+
+When a card, app screen, or product appearance matters:
+
+1. Find the current official product page or official help demonstration.
+2. Record the formal product name, direct URL, asset purpose, and verification date.
+3. Distinguish the official name from community shorthand.
+4. Prefer provider-supplied demo imagery over a user's real card or account screenshot.
+5. Note when visible names, numbers, or dates are official sample data.
+6. Do not infer current default selections solely from an older promotional image; verify the current App flow or describe it as the user's dated observation.
+
 ## Normalize the comparison
 
 Define before calculating:

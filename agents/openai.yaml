@@ -1,8 +1,8 @@
 interface:
-  display_name: "小红书金融经历卡片"
-  short_description: "把真实金融使用经历整理成可核验、已脱敏的小红书图文"
+  display_name: "小红书银行与金融经历卡片"
+  short_description: "把真实开户或金融经历整理成可核验、已脱敏的手机端图文"
   brand_color: "#356FA8"
-  default_prompt: "Use $create-xhs-finance-story to turn my real financial-account experience into a sourced, privacy-safe Xiaohongshu carousel."
+  default_prompt: "Use $create-xhs-finance-story to turn my real banking or financial experience into a sourced, privacy-safe, mobile-readable Xiaohongshu carousel."
 
 policy:
   allow_implicit_invocation: true

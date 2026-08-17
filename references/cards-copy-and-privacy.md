@@ -2,6 +2,8 @@
 
 ## Eight-page card template
 
+Treat this as a decision-story template, not a fixed outline for every topic. For account opening, onboarding, or failure self-check posts, replace pages 2–7 with prerequisites, application choices, verification, delivery, dated failed attempts, the successful configuration, and post-opening setup. Keep page 8 for sources.
+
 ### Page 1 — Cover and conclusion
 
 - Use a plain scenario title, not clickbait.
@@ -60,6 +62,14 @@
 - Remove repeated setup, repeated product names, and decorative transitions first.
 - Use 4–7 narrow hashtags. Avoid tags that imply guaranteed returns, universal advice, or beginner authority.
 - Verify current title and body limits in the publishing interface; leave buffer for tags and disclosures.
+- Count the final pasted text, including hashtags, line breaks, and disclosures.
+- Separate four evidence levels in the wording:
+  - official rule: “官方页面写明……”;
+  - user observation: “我在某日提交时看到／收到……”;
+  - experience reference: “我看到部分用户分享……”;
+  - hypothesis: “我个人怀疑……，但无法确认因果关系”.
+- Do not convert a successful personal configuration into a universal requirement. For example, write “我实际使用 Gmail” rather than claiming another email provider is rejected without official evidence.
+- Use the formal product or card name first. Put community nicknames such as “红狮子／蓝狮子” in a secondary label and state that the App name controls.
 
 ## Visual direction
 
@@ -73,6 +83,21 @@ Use these defaults unless the user provides a brand system:
 - clear difference between title, subtitle, label, and note;
 - consistent margins, card padding, stroke weight, and page number position;
 - fewer decorative hearts, stickers, arrows, and tapes than a typical scrapbook layout.
+- use one regular, high-legibility Chinese typeface for long copy; reserve expressive lettering for very short decorative headings only;
+- on a roughly 1080-pixel-wide canvas, start around 30–40 px for body copy, 40–52 px for card headings, and 70–96 px for a cover headline, then verify at phone scale;
+- render Chinese copy, numbers, product codes, and URLs as editable text, not as text generated inside an illustration;
+- use an official image only when it materially improves accuracy, keep its source URL, and avoid recreating a branded product from memory.
+
+## Production gates
+
+1. Draft the full page map and copy before decorating.
+2. Produce page 1 as the style proof when the look is not yet locked.
+3. After approval, reuse the same layout tokens across all pages.
+4. Render each page and run a programmatic overflow check where the format supports it.
+5. Inspect the complete page at phone scale and inspect close crops of every dense frame.
+6. Correct alignment by moving the text block or changing padding before shrinking type.
+7. Review all pages as a contact sheet for hierarchy and consistency.
+8. Re-export after every source-copy change; never assume the prior PNG updated itself.
 
 ## Export QA
 
@@ -80,6 +105,7 @@ Inspect all pages together, then each page at full resolution. Check:
 
 - No title, number, percentage, or footnote crosses a frame.
 - Text blocks are vertically centered inside their cards.
+- Numeric badges and step numbers are optically centered, not merely mathematically placed.
 - Page titles occupy comparable visual positions.
 - Numbers and Latin product codes do not use calligraphic fonts.
 - Body type is readable on a phone without zooming.
@@ -87,6 +113,9 @@ Inspect all pages together, then each page at full resolution. Check:
 - Dense pages reduce copy before reducing type below comfortable reading size.
 - Decorative items never compete with the conclusion or table.
 - The last page URLs remain readable after platform compression.
+- The useful content fills the page without crowding: remove dead space by enlarging or repositioning meaningful content, not by adding unrelated ornaments.
+- Long copy uses a regular sans-serif or similarly legible font; calligraphic styles do not carry instructions.
+- All official images have a recorded source and any provider demo data is clearly understood as sample data.
 
 ## Privacy checklist
 
@@ -100,8 +129,11 @@ Redact or replace:
 - transaction date/time when it can identify the person;
 - status-bar notifications, device name, and unique device identifiers;
 - filenames, EXIF metadata, local filesystem paths, and cloud-share tokens.
+- downloaded official examples that accidentally expose live user data rather than provider-supplied demo data.
 
 Use rounded public scenarios in the narrative. Re-open the exported images rather than trusting the editable source view.
+
+When an official demo card or screenshot contains a sample name, card number, or date, state in the source note that it is provider-supplied demonstration data. Do not substitute the user's real card image merely to make the layout more realistic.
 
 ## Publishing settings
 
