@@ -8,57 +8,56 @@ Use sources in this order:
 2. Current prospectus, key facts statement, factsheet, or offering document
 3. Exchange or regulator pages
 4. Issuer or index-provider methodology pages
-5. Reputable secondary explanations only for context
+5. Reputable secondary explanations for context only
 
-Do not use a search-result snippet as evidence. Open the page or document. For PDFs, inspect the relevant page and preserve the direct URL.
+Open the source instead of citing a search-result snippet. For each important claim, record the exact rule or number, source title, direct URL, effective date if shown, verification date, and applicable customer/product scope.
 
-For each claim, record:
+If official pages conflict, prefer the newer and more specific document. State unresolved uncertainty instead of silently choosing the most convenient interpretation.
 
-| Field | Required content |
-|---|---|
-| Claim | The exact rule or number used |
-| Source title | Official page or document title |
-| URL | Direct link, not a search page |
-| Effective date | If the source provides one |
-| Verified on | The date checked |
-| Scope | Currency, account type, share class, customer group, or promotion |
+## Evidence ledger for experience posts
 
-If two official pages disagree, prefer the newer and more specific document. State the uncertainty rather than silently choosing a favorable number.
+Classify important statements internally before writing:
 
-## Evidence labels for process and troubleshooting posts
-
-Classify every nontrivial statement before turning it into card copy:
-
-| Label | Meaning | Safe wording |
+| Type | Meaning | Natural published wording |
 |---|---|---|
 | Official rule | Directly stated by the provider, regulator, exchange, or issuer | “官方页面写明……” |
-| User-observed result | The user personally saw an App screen, rejection, approval, delivery, or timing | “我这次提交时看到……” |
-| Experience reference | Reported by other users but not confirmed as a rule | “部分经验帖提到……” |
-| Hypothesis | A variable changed between attempts, but causation is unknown | “我个人怀疑……；无法确认是否是原因” |
+| User observation | The user personally saw or did it | “我第一次提交时……” |
+| Experience reference | Another user reported it, but it is not an official rule | “我看到有经验帖提到……” |
+| Inference | A variable changed before success, but causation is unknown | “我个人怀疑……，但无法确认是不是原因。” |
 
-Do not upgrade an experience reference into a rule through repetition. A successful attempt after changing an email provider, App Store region, network route, declared asset range, address, or bundled product selection does not prove that the changed variable caused approval.
+Keep this ledger in working notes. Do not prefix every published paragraph with an evidence label.
 
-Use the least assertive truthful formulation. For example:
+A recent personal experience gives the post value, but it does not replace current official terms. A successful attempt after changing an email provider, app-store region, network, declared amount, address, or bundled product selection does not prove that the variable caused approval.
 
-- Safe: “我实际使用 Gmail，并确认邮箱能正常收信.”
-- Unsafe without official evidence: “不要用 QQ 邮箱，否则会被拒.”
+Use the user's observed sequence and add one short uncertainty sentence where it matters. Do not advise false reporting or describe unverified experience as a guaranteed fix.
 
-Record the date of the user's experience separately from the date on which official sources were checked. A recent experience is useful context, not a substitute for current terms.
+## Platform-review revisions
 
-## Official visuals and product names
+If a platform flags financial content:
+
+1. Read the named category, highlighted text, and highlighted images.
+2. Identify whether the issue is a recommendation, solicitation, unsupported promise, actionable financial service, or a misclassification.
+3. Preserve the genuine personal timeline.
+4. Remove unsupported universal commands and unnecessary operational detail.
+5. Link to the official page for changing eligibility, fees, or terms.
+6. Appeal when the content is factual and does not provide the prohibited service.
+
+Do not stack long denials of unrelated financial activities. They add noise and may repeat the same sensitive concepts the platform is screening. Do not use euphemisms merely to evade review.
+
+## Official visuals and names
 
 When a card, app screen, or product appearance matters:
 
-1. Find the current official product page or official help demonstration.
-2. Record the formal product name, direct URL, asset purpose, and verification date.
-3. Distinguish the official name from community shorthand.
+1. Find the current official product page or help demonstration.
+2. Record the formal name, direct URL, purpose, and verification date.
+3. Distinguish the formal name from community shorthand.
 4. Prefer provider-supplied demo imagery over a user's real card or account screenshot.
-5. Note when visible names, numbers, or dates are official sample data.
-6. Do not infer current default selections solely from an older promotional image; verify the current App flow or describe it as the user's dated observation.
+5. Treat visible demo names, numbers, and dates as sample data.
+6. Describe a current default selection only when verified in the present app flow or clearly date it as the user's observation.
 
-## Normalize the comparison
+## Normalize a cost comparison
 
-Define before calculating:
+Define:
 
 - `P`: average capital or holding value
 - `r`: annual product charge rate
@@ -70,17 +69,13 @@ Use:
 
 `C(P, T) = T × (F(P) + P × r)`
 
-If a fee is monthly, convert it to an annual amount only when the assumptions imply twelve chargeable months. If holding or trading activity determines whether the fee applies, show the assumed number of chargeable months.
+Convert monthly fees to annual amounts only when the scenario assumes twelve chargeable months. If holding or trading activity controls the fee, state the assumed number of chargeable months.
 
-For a tiered platform:
+For tiered fees, identify whether the threshold uses purchase amount, month-end value, or average daily holding. Apply the correct branch of `F(P)` and note when market movement can move a holding across the threshold.
 
-1. Identify whether the threshold uses purchase amount, month-end value, or average daily holding.
-2. Apply the correct branch of `F(P)` at each scenario.
-3. Warn that market movement can push a holding across the threshold.
+## Find a visible-fee crossover
 
-## Find a break-even point
-
-For two products with fixed fees `F1`, `F2` and annual rates `r1`, `r2`, solve:
+For two routes with fixed fees `F1`, `F2` and annual rates `r1`, `r2`, solve:
 
 `F1 + P × r1 = F2 + P × r2`
 
@@ -88,34 +83,21 @@ When `r1 != r2`:
 
 `P* = (F2 - F1) / (r1 - r2)`
 
-Check that `P*` falls inside the fee tiers used to derive it. If it crosses a tier boundary, solve again within each valid interval. Label the result “visible-fee crossover under these assumptions”.
+Check that `P*` lies inside the fee tiers used to derive it. If it crosses a tier boundary, solve each valid interval separately. Call the result a “visible-fee crossover under these assumptions”, not a buy signal.
 
-## Scenario table
+Use rounded scenarios that help readers locate themselves without revealing the user's balance. Amounts near 10k, 20k, 50k, 100k, and 200k are useful only when they match the actual thresholds and currency.
 
-Use rounded amounts that help a reader locate themselves without revealing the user's balance. A useful default is:
+## Disclose material exclusions once
 
-| Capital | Route A | Route B | Route C | Interpretation |
-|---:|---:|---:|---:|---|
-| about 10k | cost / rate | cost / rate | cost / rate | Fixed fees dominate or do not apply |
-| 20k | cost / rate | cost / rate | cost / rate | Small crossover may appear |
-| 50k | cost / rate | cost / rate | cost / rate | Research low-rate alternatives |
-| 100k | cost / rate | cost / rate | cost / rate | Rate differences become material |
-| 200k | cost / rate | cost / rate | cost / rate | Re-check fee tiers |
+Unless calculated from verified inputs, exclude and summarize the material items once near the table or source card:
 
-Do not hard-code this pattern if the product thresholds or currency make other points more informative.
-
-## Mandatory caveats
-
-Unless calculated from verified inputs, exclude and disclose:
-
-- foreign-exchange spread and conversion timing;
-- bid-ask spread and market impact;
-- market levies, custody, transfer, or dividend-processing fees;
-- withholding, estate, income, or capital-gains tax;
+- FX and bid-ask spreads;
+- market levies, custody, transfer, and dividend-processing fees;
+- tax and estate implications;
 - tracking difference and securities-lending effects;
-- promotional rebates, rewards, and eligibility changes;
+- promotions and eligibility changes;
 - partial-year holding and irregular trading;
 - market return and risk.
 
-Never label the lowest visible cost as the best investment. Cost, exposure, liquidity, tax, convenience, and behavior are separate decision dimensions.
+Never label the lowest visible cost as the best investment. Cost, exposure, liquidity, tax, convenience, and behavior remain separate decision dimensions.
 
