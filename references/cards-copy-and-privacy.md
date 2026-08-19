@@ -1,75 +1,76 @@
 # Cards, Copy, Privacy, and Publishing
 
-## Eight-page card template
+## Natural first-person copy pattern
 
-Treat this as a decision-story template, not a fixed outline for every topic. For account opening, onboarding, or failure self-check posts, replace pages 2–7 with prerequisites, application choices, verification, delivery, dated failed attempts, the successful configuration, and post-opening setup. Keep page 8 for sources.
+Use this rhythm rather than a formal guidebook voice:
 
-### Page 1 — Cover and conclusion
+1. Open with a dated scene: what the user tried, what went wrong, what eventually happened, and why they are sharing it.
+2. Put the takeaway on page 1 in the user's own words.
+3. Let pages 2–7 follow the real sequence or decision process.
+4. Put official links and the verification date on page 8.
+5. Close with one short, truthful content note only when needed.
 
-- Use a plain scenario title, not clickbait.
-- State the rounded capital range and the central constraint.
-- Add one short conclusion that explains why the whole amount may not need to be invested.
+Useful sentence shapes:
 
-### Page 2 — Money allocation
+- “我第一次……，结果……”
+- “第二次我发现……，之后……”
+- “后来我只按……填写／选择……”
+- “官方允许……，所以这只是我的操作顺序，不能证明因果。”
+- “最后一次我同时做了几项调整，随后完成，也可能存在其他因素。”
 
-- Ask three decision questions: near-term use, loss tolerance, and fixed-fee burden.
-- Separate investing money, liquid cash, and money eligible for a time deposit or similar low-volatility use.
+Do not repeat “仅供参考”“不构成……” or evidence labels after every paragraph. Keep those ideas in the fact-checking process; let the published copy read naturally.
 
-### Page 3 — App process
+## Eight-page story templates
 
-- Show only the necessary steps.
-- Distinguish product/fund codes from stock tickers.
-- Tell readers to verify the full product name, share class, currency, charges, and confirmation page.
-- Note that app menus can change.
+### Troubleshooting or failure self-check
 
-### Page 4 — Chosen product
+1. Result: the few changes the user made
+2. One important official condition, not a wall of copied terms
+3. First attempt and first changed variable
+4. Second attempt and second changed variable
+5. Declared amount, form choice, or another relevant variable
+6. App version, support route, or operating detail
+7. Final successful sequence plus one brief uncertainty sentence
+8. Official page titles, direct URLs, verification date, and short content note
 
-- Name the product type precisely; do not call a fund a stock.
-- Show share class, benchmark or exposure, ongoing charge, and why it fits the stated constraint.
-- Include one important limitation, such as geographic concentration or volatility.
+### Account-opening walkthrough
 
-### Page 5 — Alternatives
+1. Scenario and compact process map
+2. Documents, phone, email, and address preparation
+3. App entry point and account route
+4. Identity and location verification
+5. Form choices that affect later steps
+6. Submission, result, and troubleshooting
+7. Card selection, delivery, activation, and post-opening setup
+8. Official sources and verification date
 
-- Compare exposure, access route, fixed fee, percentage fee, lot size, FX, tax, and operational details.
-- Write “why I did not choose it at this stage”, not “why it is bad”.
+### Investment or cost decision
 
-### Page 6 — Cost table
+1. Constraint and plain-language conclusion
+2. Money buckets or decision questions
+3. App steps
+4. Product actually chosen and why
+5. Alternatives considered and why not at this stage
+6. Comparable visible-cost table and thresholds
+7. Treatment of uninvested money
+8. Official sources, assumptions, and verification date
 
-- Use one holding period and one currency.
-- Center every amount and percentage.
-- Explain the threshold in plain language below the table.
-- Include the biggest excluded costs in a compact footnote.
-
-### Page 7 — Uninvested money
-
-- Compare cash buffer, deposit, or waiting options.
-- Verify minimum-deposit amount, term, maturity instruction, and early-withdrawal consequences.
-- Do not imply that investing and depositing must happen together.
-
-### Page 8 — References
-
-- Print readable official page titles and direct URLs.
-- Add a verification date.
-- Add the personal-record disclaimer and AI-assistance disclosure if applicable.
-- Do not offer a downloadable attachment that the platform cannot host.
+Treat these as defaults, not mandatory outlines. Keep one main point per page and match every `图N｜标题` in the body to the actual image order.
 
 ## Copy editing
 
-- Lead with the user's constraint and actual decision.
-- Use short paragraphs and `图N｜标题` markers that exactly match the carousel order.
-- Explain thresholds before naming a preferred route.
-- Retain assumptions, exclusions, and risk warnings when shortening.
-- Remove repeated setup, repeated product names, and decorative transitions first.
-- Use 4–7 narrow hashtags. Avoid tags that imply guaranteed returns, universal advice, or beginner authority.
-- Verify current title and body limits in the publishing interface; leave buffer for tags and disclosures.
-- Count the final pasted text, including hashtags, line breaks, and disclosures.
-- Separate four evidence levels in the wording:
-  - official rule: “官方页面写明……”;
-  - user observation: “我在某日提交时看到／收到……”;
-  - experience reference: “我看到部分用户分享……”;
-  - hypothesis: “我个人怀疑……，但无法确认因果关系”.
-- Do not convert a successful personal configuration into a universal requirement. For example, write “我实际使用 Gmail” rather than claiming another email provider is rejected without official evidence.
-- Use the formal product or card name first. Put community nicknames such as “红狮子／蓝狮子” in a secondary label and state that the App name controls.
+- Preserve the user's clear colloquial phrases and first-person chronology.
+- Put the event before the explanation.
+- Prefer specific verbs and short sentences.
+- Use plain titles that state the scenario; avoid exaggerated promises and generic “保姆级” language.
+- Do not turn “I changed X and then succeeded” into “X guarantees success.”
+- Put a qualification beside the claim only when readers could otherwise mistake sequence for causation.
+- Avoid generic AI transitions, repeated summaries, moralizing, and repetitive “不是……而是……” phrasing.
+- Remove duplicated setup and boilerplate before removing useful detail.
+- Use 4–7 narrow hashtags that describe the experience, not guaranteed outcomes or financial recommendations.
+- Verify current title and body limits in the publishing interface. For a 1,000-character body, target about 850–900 characters and count line breaks, tags, links, and disclosures.
+
+When a platform review highlights text or images, revise the highlighted meaning rather than swapping one term for a code word. Keep legitimate personal experience, remove unsupported absolutes or unnecessary actionable detail, and use official links for changing conditions.
 
 ## Visual direction
 
@@ -77,75 +78,65 @@ Use these defaults unless the user provides a brand system:
 
 - portrait social-card canvas;
 - warm paper or clean off-white background;
-- restrained blue-led palette with one coral accent and muted secondary colors;
-- hand-drawn details used as framing, not clutter;
-- bold, legible sans-serif for English and numbers;
-- clear difference between title, subtitle, label, and note;
-- consistent margins, card padding, stroke weight, and page number position;
-- fewer decorative hearts, stickers, arrows, and tapes than a typical scrapbook layout.
-- use one regular, high-legibility Chinese typeface for long copy; reserve expressive lettering for very short decorative headings only;
-- on a roughly 1080-pixel-wide canvas, start around 30–40 px for body copy, 40–52 px for card headings, and 70–96 px for a cover headline, then verify at phone scale;
-- render Chinese copy, numbers, product codes, and URLs as editable text, not as text generated inside an illustration;
-- use an official image only when it materially improves accuracy, keep its source URL, and avoid recreating a branded product from memory.
+- restrained blue-led palette with one coral accent;
+- hand-drawn details as framing, not clutter;
+- regular high-legibility Chinese type for all instructional copy;
+- bold sans-serif for English, numbers, product codes, and URLs;
+- clear differences between page title, card heading, body, and note;
+- consistent margins, padding, stroke weight, and page-number position;
+- no decorative item added solely to fill space.
+
+On a roughly 1080-pixel-wide canvas, begin around 34–42 px for body copy, 44–56 px for card headings, and 72–96 px for a cover headline, then inspect at phone scale. Reduce copy before shrinking body text below comfortable reading size.
+
+Render exact Chinese copy, numbers, codes, and URLs as editable text. Use an official image only when exact product appearance matters, record its source URL, and do not recreate branded products from memory.
 
 ## Production gates
 
-1. Draft the full page map and copy before decorating.
-2. Produce page 1 as the style proof when the look is not yet locked.
-3. After approval, reuse the same layout tokens across all pages.
-4. Render each page and run a programmatic overflow check where the format supports it.
-5. Inspect the complete page at phone scale and inspect close crops of every dense frame.
-6. Correct alignment by moving the text block or changing padding before shrinking type.
+1. Finish the page map and copy before decorating.
+2. Lock page 1 as the style proof when the visual system is still unsettled.
+3. Reuse the same layout tokens across all pages.
+4. Run overflow checks where the editable format supports them.
+5. Inspect every dense frame and the whole page at phone scale.
+6. Fix alignment or padding before shrinking type.
 7. Review all pages as a contact sheet for hierarchy and consistency.
-8. Re-export after every source-copy change; never assume the prior PNG updated itself.
+8. Re-export after every copy change.
 
 ## Export QA
 
-Inspect all pages together, then each page at full resolution. Check:
+Check:
 
-- No title, number, percentage, or footnote crosses a frame.
-- Text blocks are vertically centered inside their cards.
-- Numeric badges and step numbers are optically centered, not merely mathematically placed.
-- Page titles occupy comparable visual positions.
-- Numbers and Latin product codes do not use calligraphic fonts.
-- Body type is readable on a phone without zooming.
-- Sparse lower areas are corrected by moving the composition, enlarging useful content, or removing unnecessary canvas.
-- Dense pages reduce copy before reducing type below comfortable reading size.
-- Decorative items never compete with the conclusion or table.
-- The last page URLs remain readable after platform compression.
-- The useful content fills the page without crowding: remove dead space by enlarging or repositioning meaningful content, not by adding unrelated ornaments.
-- Long copy uses a regular sans-serif or similarly legible font; calligraphic styles do not carry instructions.
-- All official images have a recorded source and any provider demo data is clearly understood as sample data.
+- Every frame fully contains its text.
+- Text blocks and step numbers are optically centered.
+- Page titles occupy comparable positions.
+- Body text is readable without zooming.
+- English, numbers, and product codes never use calligraphic fonts.
+- Useful content fills the page without crowding or large dead zones.
+- Decorations never compete with the conclusion, steps, or table.
+- The last-page URLs survive platform compression.
+- The final PNGs match the latest editable source and body order.
 
 ## Privacy checklist
 
 Redact or replace:
 
 - name, avatar, phone number, email, and address;
-- full or partial bank, card, securities, or investment account numbers;
-- exact account balance, available balance, exact order amount, and position value;
-- transaction, order, reference, customer, or investment IDs;
-- QR codes, barcodes, and login/session tokens;
-- transaction date/time when it can identify the person;
-- status-bar notifications, device name, and unique device identifiers;
-- filenames, EXIF metadata, local filesystem paths, and cloud-share tokens.
-- downloaded official examples that accidentally expose live user data rather than provider-supplied demo data.
+- bank, card, securities, investment, order, customer, and reference numbers;
+- exact balances, positions, and transaction amounts;
+- QR codes, barcodes, login/session tokens, and notification text;
+- timestamps, device names, and unique device identifiers;
+- filenames, EXIF metadata, local paths, and cloud-share tokens.
 
-Use rounded public scenarios in the narrative. Re-open the exported images rather than trusting the editable source view.
-
-When an official demo card or screenshot contains a sample name, card number, or date, state in the source note that it is provider-supplied demonstration data. Do not substitute the user's real card image merely to make the layout more realistic.
+Use rounded public scenarios. Re-open exported images after redaction rather than trusting the editable source view. Do not add the user's screenshots or downloaded session URLs to a public skill repository.
 
 ## Publishing settings
 
-- Enable the platform's AI-content disclosure when AI generated or materially edited the cards.
+- Use the platform's AI-content disclosure when AI materially created or edited the visuals.
 - Use an original-content declaration only when the user owns the text and visual rights.
-- Choose public visibility only when the user intends a public post.
-- Disable remix/co-creation when the user does not want derivative reuse.
-- Allow copying only when the user is comfortable with text reuse; sharing with friends alone does not require it.
-- Do not add location, group-chat, route, event, or unrelated campaign metadata without a reason.
-- Review suggested tags and remove irrelevant or misleading ones.
+- Review suggested topics and remove irrelevant ones.
+- Do not add location, group-chat, route, event, or campaign metadata without a reason.
+- Let the user decide whether copying, remixing, and public visibility fit their purpose.
 
-Suggested closing language:
+A concise closing note is usually enough:
 
-> 以上只是我的个人使用记录，不构成投资建议。费率和规则可能变化，操作前请重新核对官方资料。配图如由 AI 辅助制作，请按平台规则标注。
+> 以上是我的个人经历，图片与排版由 AI 辅助；规则可能变化，请以最新官方页面为准。
 
